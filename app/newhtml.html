@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>addClass demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <style>
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+  }
+  .big-blue {
+    width: 200px;
+    height: 200px;
+    background-color: #00f;
+  }
+  .active{
+        background-color: #4c4c4c!important;
+        -moz-border-radius: 15px!important;
+        border-radius: 15px!important;
+        /*background-repeat:repeat-x!important;*/
+        /*height: 40px!important;*/
+        /*color: #4876FF!important;*/
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body>
+  
+ <div>
+                            <ul class="nav">
+                                <li ><a href="#">Home</a></li>
+                                <li ><a href="#about">About</a></li>
+                                <li ><a href="#contact">Contact</a></li>
+                            </ul>
+ </div>
+<script>
+$( ".nav li a" ).click(function() {
+    $('.nav > li .active').removeClass('active', 1000);
+  $( this ).addClass( "active", 1000 );
+});
+</script>
+ 
+</body>
+</html>
