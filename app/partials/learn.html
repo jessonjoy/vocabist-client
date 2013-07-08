@@ -1,25 +1,22 @@
     <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit">
+            <div class="section1">
                 <h1>Learn!</h1>
                 <br/>
-                <div class="row" style="border:1px solid black">
-                    <div class="span4" >
-                        <input data-ng-model="searchWord" type="text" style="width:300px; vertical-align: middle"/>
-                    </div>
-                    <div class="span4">
-                        <p><a class="btn btn-primary btn-large"  data-ng-click="lookupWord(searchWord)">Look up</a></p>                    
-                    </div>
+                <div class="row" >
+                    <div class="search-div" >
+                        <input data-ng-model="searchWord" type="text" class="search-box left" />
+                        <p><a class="btn btn-primary btn-large left" data-ng-click="lookupWord(searchWord)">Look up</a></p> 
+                    </div>                    
                 </div>
                 
                 <p> Definition of torrent is: {{word.text}}</p>
                 <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
                 
             </div>
-
    
             <!-- Example row of columns -->
             <div class="row">
-                <div class="span4">
+                <div class="section2">
                     <h2>Heading</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>

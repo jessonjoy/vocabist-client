@@ -17,6 +17,9 @@ div article{
 }
 
 @media screen{
+    .header{
+        margin-bottom: 10px;
+    }
     .body {
         overflow: auto;
         padding-bottom: 192px;
@@ -83,6 +86,7 @@ div article{
 
     .navbar, .navbar-inner, .nav{
         height: 50px;
+
     }
     
     .navbar-inner>.container{
@@ -120,6 +124,41 @@ div article{
         -moz-border-radius: 15px!important;
         border-radius: 15px!important;
         border-top-left-radius: 0px!important;
+    }
+    
+    .section1, section2 {
+        margin-bottom: 10px;        
+        color: inherit;
+        background-color: #eee;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        padding: 15px;
+
+    }
+    
+    .section1{
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 30px;
+
+    }
+    .section2 {
+        font-size: 14px;
+        width: 320px;
+        margin-left:30px;
+        float:left;
+    }
+    
+    .search-div{
+        display: table;
+        margin-left: 150px;
+        
+    }
+    
+    .search-box{
+        width:350px;
+        
     }
 }
 
