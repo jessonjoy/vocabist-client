@@ -61,9 +61,8 @@ div article{
         background: url('#{resource["images:side_cir.png"]}') 40px 0px white no-repeat;
         float: left; z-index: 10000;
         margin-right: 0;margin-left: -49px;
-
-
     }
+    
     .side_cir_large{
         background: white ; border: 1px solid lightgray; border-right: none;
         width: 30px; height: 60px;
